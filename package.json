@@ -1,0 +1,28 @@
+{
+  "name": "fluxExample",
+  "version": "0.0.0",
+  "description": "An example implementation of the flux design pattern with React",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-babel": "~6.0.0",
+    "load-grunt-tasks": "~3.5.0",
+    "babel-preset-react": "~6.11.1",
+    "babel-plugin-transform-react-jsx": "~6.8.0",
+    "grunt-contrib-requirejs": "~1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmuerle/fluxExample.git"
+  },
+  "author": "jmuerle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmuerle/fluxExample/issues"
+  },
+  "homepage": "https://github.com/jmuerle/fluxExample"
+}
