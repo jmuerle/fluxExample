@@ -1,8 +1,11 @@
 .count-display {
-  font-size: 48px;
+  font-family: Arial;
+  font-size: 72px;
 }
 
 .counting-button {
   margin-left: 5px;
-  font-size: 24px;
+  font-family: Arial;
+  font-size: 48px;
+  cursor: pointer;
 }
