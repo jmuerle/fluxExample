@@ -21,11 +21,11 @@ define(function (require) {
     switch (action.actionType) {
       case CountConstants.UPDATE_COUNT:
         count += action.incrementAmount;
-        _emitStateChangedAction();
+        _emitStateChangedToControllerView();
         break;
       case CountConstants.RESET_COUNT:
         count = 0;
-        _emitStateChangedAction();
+        _emitStateChangedToControllerView();
         break;
       default:
         // no op
