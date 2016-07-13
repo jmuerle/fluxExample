@@ -7,7 +7,7 @@ define(function (require) {
     },
     render: function () {
       return (
-        <div>{this.props.count}</div>
+        <div className="count-display">{this.props.count}</div>
       );
     }
   });

@@ -18,9 +18,9 @@ define(function (require) {
     render: function () {
       return (
         <div>
-          <button onClick={_incrementCount}>+1</button>
-          <button onClick={_incCountBy10}>+10</button>
-          <button onClick={_resetCount}>Reset</button>
+          <button className="counting-button" onClick={_incrementCount}>+1</button>
+          <button className="counting-button" onClick={_incCountBy10}>+10</button>
+          <button className="counting-button" onClick={_resetCount}>Reset</button>
         </div>
       );
     }
