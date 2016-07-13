@@ -11,7 +11,7 @@ define(function (require) {
     }
   };
 
-  function _emitStateChangedAction() {
+  function _emitStateChangedToControllerView() {
     StoreChangedDispatcher.dispatch({
       actionType: CountConstants.COUNT_STORE_CHANGED
     });
